@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>emotional recovery system</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="terminal">
+    <div class="bg-wash" id="bgWash"></div>
+    <div class="chromatic" id="chromatic"></div>
+    <div class="scan"></div>
+    <div class="vignette"></div>
+
+    <div id="output"></div>
+
+    <div class="input-row">
+      <span class="prompt-char">&gt;</span>
+      <div id="typed-display"><span class="cursor"></span></div>
+      <input id="ghost-input" type="text" autocomplete="off" spellcheck="false" autofocus />
+    </div>
+  </div>
+
+  <script src="errors.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
